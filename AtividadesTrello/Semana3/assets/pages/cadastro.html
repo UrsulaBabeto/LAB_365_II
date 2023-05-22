@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h2>Sign Up</h2>
+        <h4 id="subtitle">Insira seus dados para criar uma conta</h4>
+        <form id="formulario">
+          <input class="placeholder-text" type="text" placeholder="Empresa" id="empresa" aria-label="Empresa"required />
+          <input class="placeholder-text" type="text" placeholder="CNPJ" id="cnpj" aria-label="CNPJ" required />
+          <input class="placeholder-text" type="text" placeholder="Responsável" id="responsavel" aria-label="Responsável" required />
+          <div class="input">
+            <input class="content-input placeholder-text" type="email" placeholder="E-mail" id="email" aria-label="E-mail" required />
+            <input class="content-input placeholder-text" type="tel" placeholder="Telefone" id="telefone" aria-label="Telefone" required />
+            <input class="content-input placeholder-text" type="password" placeholder="Senha" id="senha" aria-label="Senha" required />
+            <input class="content-input placeholder-text" type="password" placeholder="Confirmar senha" id="senha1" aria-label="Confirmar Senha" required/>
+          </div>
+          <button type="submit" aria-label="Criar Conta">Criar Conta</button>
+        </form>
+      </div>
+      <h4>
+        Já possui uma conta?
+        <a id="link-login" href="../pages/login.html">Realizar login</a>
+      </h4>
+    </div>
+    <script src="../script/cadastro.js"></script>
+  </body>
+</html>

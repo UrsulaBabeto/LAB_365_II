@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h2>Sign In</h2>
+        <h4 id="subtitle">Insira as suas credenciais para acessar sua conta</h4>
+        <form id="formulario">
+          <input class=" placeholder-text" type="email" id="email" placeholder="Informe seu e-mail" aria-label="Informe seu e-mail" required />
+          <input class=" placeholder-text" type="password" id="password" placeholder="Informe sua senha" aria-label="Informe sua senha" required />
+          <button type="submit" onclick="enviarFormulario(event)" aria-label="Entrar">Entrar</button>
+        </form>
+      </div>
+      <h4>Esqueceu sua senha? <span id="link-login">Redefinir senha</span></h4>
+      <h4>
+        Ainda não tem uma conta?
+        <a id="link-login" href="../pages/cadastro.html">Cadastre-se</a>
+      </h4>
+    </div>
+    <script src="../script/login.js"></script>
+  </body>
+</html>
