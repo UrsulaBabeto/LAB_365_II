@@ -1,0 +1,6 @@
+aria-checked="false" define valor padrão para checkbox
+criar função onchange(this) com ternario que verifica o valor true or false 
+ 
+para input: aria-label="descrição da utilidade do label ou do button"
+
+role=" é utilizado par definir função de tag genérica ex.: <div role="alert">
