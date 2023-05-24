@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+
   font-family: 'Inter Tight', sans-serif;
 }
 .container {
@@ -13,6 +14,7 @@
   align-items: center;
   background-color: var(--bg-color);
   height: 100vh;
+ width: 100vw;
 }
 .content {
   display: flex;
@@ -22,6 +24,7 @@
   border-radius: 6px;
   background-color: #fff;
   height: fit-content;
+  padding: 20px;
 }
 h2 {
   color: var(--primary-color);
@@ -29,7 +32,7 @@ h2 {
 }
 h4 {
   color: var(--secondary-color);
-  font-size: 10px;
+  font-size: 0.8rem;
   padding: 10px;
   font-weight: 400;
 }
@@ -41,13 +44,12 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  gap: 5px;}
 input {
-  margin: 4px;
-  padding: 5px;
-  width: 220px;
+  padding: 12px;
   border: 1.5px solid var(--border-color);
   border-radius: 4px;
+  transition: 0.2s;
 }
 input:hover{
   border: 1px solid #9a9ca5;
@@ -56,32 +58,22 @@ input:focus {
   outline: none;
   border: 1px solid #2d3030;
 }
-
-.input {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr;
-}
-.content-input {
-  width: 100px;
-}
 .placeholder-text::placeholder {
   color: var(--input-color);
-  font-size: 12px;
+  font-size: 13px;
 }
+
 button {
   background-color: var(--green-color);
   color: #fff;
-  padding: 7px;
-  border-radius: 6px;
-  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px !important;
   border: none;
-  width: 230px;
-  margin-left: 3px;
   cursor: pointer;
+  transition: 0.2s;
 }
 button:hover{
-  font-size:medium ;
+  box-shadow: 0 0 5px #666;
 
 }
 button:active {
@@ -89,32 +81,12 @@ button:active {
   box-shadow: 0 0 5px #666;
   transform: translateY(4px);
 }
-
+h5{
+  font-size: 0.8rem !important;
+  padding:0.5rem 1rem 0 0.5rem ;
+}
 #link-login {
   color: var(--green-color);
   text-decoration: none;
-  font-size: 10px;
-}
-
-
-/* Media query para telas menores */
-@media (max-width: 600px) {
-  .content {
-    max-width: 100%;
-    padding: 20px;
-  }
-  input {
-    width: 100%;
-  }
-}
-
-/* Media query para telas maiores */
-@media (min-width: 601px) {
-  .content {
-    max-width: 280px;
-    padding: 30px;
-  }
-  input {
-    width: 220px;
-  }
+  font-size: 0.8rem
 }
