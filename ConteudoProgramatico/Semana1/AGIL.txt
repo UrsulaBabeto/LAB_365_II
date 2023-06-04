@@ -1,0 +1,219 @@
+<<<<<<< HEAD
+AGIL = mindset, processo de pensamento que envolve compreensao colaboraçao 
+aprendizado e flexibilidade para alcançar resultados de alto desempenho
+
+ASSERITVIDADE, ADAPTAÇÃO, EVITAR RETRABALHO, ENTREGA DE VALOR E PRIORIDADE NA SATISFAÇÃO DO CLIENTE
+
+criado para solucionar os problemas do modelo cascata - desenvolvimento de software 
+sequencial(requerimento,projeto,implementação,verificação,manutenção)- que é linear e pouquissimo flexível
+
+2001 - Manifesto ágil
+
+
+dividido em 4 valores(pilares):
+1- individuos e interações
+2- software em funcionamento
+3- colaboração com o cliente
+4- responder a mudanças
+
+e 12 principios:
+01- satisfação do cliente
+02- aceite bem as mudanças
+03- entregas frequentes
+04- trabalhe em conjunto
+05- confie e apoie
+06- conversas cara a cara
+07- software funcionando
+08- desenvolvimento sustentável
+09- atenção contínua
+10- mantenha a simplicidade
+11- times auto-organizados
+12- refletir e ajustar
+
+
+metodos ageis:
+
+lean- projetos reduzidos e objetivos foco em otimizar processos, cenario industrial
+
+xp- criado em 90 para startups em processos de consolidação, fortalece relação entre clientes e funcionarios
+
+kanban- referencia a pedaços de papel para marcar o andamento do projeto
+
+scrum- indicado para projetos de diferentes areas que tenham prazos apertados e requisitos mutáveis
+
+SCRUM - posição de rugbi(muralha)
+framework de gerenciamento para auto-organização e direcionamento
+
+processo de desenvolvimento de sistema como um conjunto flexivel de 
+atividades que combina ferramentas e tecnicas conhecidas e viaveis com 
+o melhor que uma equipe de desenvolvimento pode desesnvolver para construir sistemas
+
+3 pilares- 3papeis- 4artefatos -4eventos cerimonia
+
+PILARES: transparencia, inspeção e adaptação
+PAPEIS: product owner(funil das prioridades a serem desenvolvidades, primeiro as que agregam mais valor), 
+	  scrum master (garantir que o processo seja aplicado da maneira correta e impedir interferencias externas) e 
+	  team dev (equipe multidisciplinar e auto-organizada envolvida no projeto)
+
+
+analista de negocios 
+qualquer pessoa que realiza as tarefas e analise do negocio independente do cargo ou função
+foco no negocio
+recomenda a mellhor solução
+auxilia o PO a tomar a decisão
+
+PO
+foco no produto
+tomada de decisão**
+
+PO,PM e analista de negocios podem ser a mesma pessoa
+
+artefatos scrum
+informações que as equipes usam para detalhar o produto
+- planejar trabalhos futuros
+- organizar tarefas em sprints com base em prioridades
+- executar tarefas
+- revisar e analisar resultados
+-repetir as etapas
+
+1-PRODUTO BACKLOG -lista ordenada contendo todas as funcionalidades desejadas para o produto que é definida pelo PO
+
+epic(parte integral do produto), varios epicos formam um produto
+epics são formados por features(funcionalidades)
+que sao formadas por user stories(tasks, etapas) menor pedaço do produto
+
+
+2-SPRINT BACKLOG- lista de atividades que o time decide levar para a sprint
+construida a partir de uma reunião
+essa lista representa uma previsao e quais atividades os membros da equipe acreditam que conseguirão entregar na sprint
+
+3-ENTREGA/PRODUCT INCREMENT -entregas continuas, quebradas em partes, entregas de valor MVP
+
+4- DEFINIÇÃO DE PRONTO
+
+CERIMONIAS- conjunto de reunioes que procuram promover a transparencia inspeção e adaptação do projeto
+1- refinamento (esclarecimento)- não é obrigatório
+ 2- sprint planning - marco inicial da nova sprint, estrategias que serão utilizadas, feito uma estimativa de tempo/pontuação para importancia/dificuldade das tarefas
+ 3- sprint - ciclo de desenvolvimento com duração determinada pelo scrum master (to do, in progress, testing, done)
+ 4- daily - reuniões diarias de 15 minutos 
+"o que fiz ontem, o que farei hoje, existe algum impedimento"
+ 5- review - reunião de revisão, apresentar o que foi feito durante a spront para todos os envolvidos; identificar atividades que tiveram atraso para entender o motivo
+ 6- retrospective - "o que devemos começar a fazer, o que devemos parar de fazer, o que devemos continuar fazendo"
+
+estimar é a ativiadde de avaliação do esforço para desenvolver completamente um item do backlog (previsibilidade de entrega, visibilidade para detalhes permite troca de itens)
+
+planning poker consiste em obter a estimativa por meio de um jogo de cartas com tamahhos de (sequencia fibonacci)
+estimar o esforço necessario para o desenvolvimento das funcionalidades de uma aplicação
+
+story point- unidade de medida para acessorio na estimativa e traz como combinação de esforço, da complexidade e do risco envolvido no desenvolvimento de uma feature,
+
+=======
+AGIL = mindset, processo de pensamento que envolve compreensao colaboraçao 
+aprendizado e flexibilidade para alcançar resultados de alto desempenho
+
+ASSERITVIDADE, ADAPTAÇÃO, EVITAR RETRABALHO, ENTREGA DE VALOR E PRIORIDADE NA SATISFAÇÃO DO CLIENTE
+
+criado para solucionar os problemas do modelo cascata - desenvolvimento de software 
+sequencial(requerimento,projeto,implementação,verificação,manutenção)- que é linear e pouquissimo flexível
+
+2001 - Manifesto ágil
+
+
+dividido em 4 valores(pilares):
+1- individuos e interações
+2- software em funcionamento
+3- colaboração com o cliente
+4- responder a mudanças
+
+e 12 principios:
+01- satisfação do cliente
+02- aceite bem as mudanças
+03- entregas frequentes
+04- trabalhe em conjunto
+05- confie e apoie
+06- conversas cara a cara
+07- software funcionando
+08- desenvolvimento sustentável
+09- atenção contínua
+10- mantenha a simplicidade
+11- times auto-organizados
+12- refletir e ajustar
+
+
+metodos ageis:
+
+lean- projetos reduzidos e objetivos foco em otimizar processos, cenario industrial
+
+xp- criado em 90 para startups em processos de consolidação, fortalece relação entre clientes e funcionarios
+
+kanban- referencia a pedaços de papel para marcar o andamento do projeto
+
+scrum- indicado para projetos de diferentes areas que tenham prazos apertados e requisitos mutáveis
+
+SCRUM - posição de rugbi(muralha)
+framework de gerenciamento para auto-organização e direcionamento
+
+processo de desenvolvimento de sistema como um conjunto flexivel de 
+atividades que combina ferramentas e tecnicas conhecidas e viaveis com 
+o melhor que uma equipe de desenvolvimento pode desesnvolver para construir sistemas
+
+3 pilares- 3papeis- 4artefatos -4eventos cerimonia
+
+PILARES: transparencia, inspeção e adaptação
+PAPEIS: product owner(funil das prioridades a serem desenvolvidades, primeiro as que agregam mais valor), 
+	  scrum master (garantir que o processo seja aplicado da maneira correta e impedir interferencias externas) e 
+	  team dev (equipe multidisciplinar e auto-organizada envolvida no projeto)
+
+
+analista de negocios 
+qualquer pessoa que realiza as tarefas e analise do negocio independente do cargo ou função
+foco no negocio
+recomenda a mellhor solução
+auxilia o PO a tomar a decisão
+
+PO
+foco no produto
+tomada de decisão**
+
+PO,PM e analista de negocios podem ser a mesma pessoa
+
+artefatos scrum
+informações que as equipes usam para detalhar o produto
+- planejar trabalhos futuros
+- organizar tarefas em sprints com base em prioridades
+- executar tarefas
+- revisar e analisar resultados
+-repetir as etapas
+
+1-PRODUTO BACKLOG -lista ordenada contendo todas as funcionalidades desejadas para o produto que é definida pelo PO
+
+epic(parte integral do produto), varios epicos formam um produto
+epics são formados por features(funcionalidades)
+que sao formadas por user stories(tasks, etapas) menor pedaço do produto
+
+
+2-SPRINT BACKLOG- lista de atividades que o time decide levar para a sprint
+construida a partir de uma reunião
+essa lista representa uma previsao e quais atividades os membros da equipe acreditam que conseguirão entregar na sprint
+
+3-ENTREGA/PRODUCT INCREMENT -entregas continuas, quebradas em partes, entregas de valor MVP
+
+4- DEFINIÇÃO DE PRONTO
+
+CERIMONIAS- conjunto de reunioes que procuram promover a transparencia inspeção e adaptação do projeto
+1- refinamento (esclarecimento)- não é obrigatório
+ 2- sprint planning - marco inicial da nova sprint, estrategias que serão utilizadas, feito uma estimativa de tempo/pontuação para importancia/dificuldade das tarefas
+ 3- sprint - ciclo de desenvolvimento com duração determinada pelo scrum master (to do, in progress, testing, done)
+ 4- daily - reuniões diarias de 15 minutos 
+"o que fiz ontem, o que farei hoje, existe algum impedimento"
+ 5- review - reunião de revisão, apresentar o que foi feito durante a spront para todos os envolvidos; identificar atividades que tiveram atraso para entender o motivo
+ 6- retrospective - "o que devemos começar a fazer, o que devemos parar de fazer, o que devemos continuar fazendo"
+
+estimar é a ativiadde de avaliação do esforço para desenvolver completamente um item do backlog (previsibilidade de entrega, visibilidade para detalhes permite troca de itens)
+
+planning poker consiste em obter a estimativa por meio de um jogo de cartas com tamahhos de (sequencia fibonacci)
+estimar o esforço necessario para o desenvolvimento das funcionalidades de uma aplicação
+
+story point- unidade de medida para acessorio na estimativa e traz como combinação de esforço, da complexidade e do risco envolvido no desenvolvimento de uma feature,
+
+>>>>>>> d3ea264f72aeb8ada3651316b9dd9093f950d10d

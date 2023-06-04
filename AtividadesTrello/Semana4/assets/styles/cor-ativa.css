@@ -1,0 +1,22 @@
+.btnToGreen {
+    background-color: #06bc37 ;
+    cursor: pointer;
+    color: var(--black);
+    width: 180px;
+    height: 44px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+    position: relative;
+  }
+  .btnToGreen:hover {
+    background-color: #04972b ;
+  }
+
+  .textToGreen{
+    color:  #06bc37 ;
+  }

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contatos</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/e77615556e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/assets/styles/bikcraft.css" />
+    <link rel="stylesheet" href="/assets/styles/cor-ativa.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div>
+        <a href="/bikcraft.html"
+          ><img
+            src="https://www.origamid.com/projetos/bikcraft/img/bikcraft.svg"
+        /></a>
+      </div>
+      <div>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="./bicicletas.html">Bicicletas</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Seguros</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link " onclick="changeColor()">Alterar Cor Ativa</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" onclick="trocarTema()">Trocar Tema</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="content bg-gray">
+      <div class="titulo col-12">
+        <h6>RESPOSTAS EM ATÉ 24h</h6>
+        <h1>
+          nosso contato<span class="text-yellow textToGreen">.</span>
+        </h1>
+      </div>
+    </div>
+
+    <div class="content form-color p-t-120 col-12 d-flex">
+      <div class="col-4 bg-black">
+        <section class="contato-dados">
+          <h3>Lojas Online</h3>
+          <div class="contato-meios">
+            <p>Rua Ali Perto,</p>
+            <p>Belo Horizonte -MG</p>
+            <p>Brasil</p>
+          </div>
+          <div class="contato-meios">
+            <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
+            <a href="assistencia@bikcraft.com">assistencia@bikcraft.com</a
+            ><br />
+            <a href="tel:+55 31 888844444">(31) 8 8884-4444</a>
+          </div>
+          <div class="d-flex justify-content-evenly pb-3">
+            <a class="contato-redes" href="./"
+              ><i class="fa-brands fa-instagram "></i
+            ></a>
+            <a class="contato-redes" href="./"
+              ><i class="fa-brands fa-facebook "></i
+            ></a>
+            <a class="contato-redes" href="./"
+              ><i class="fa-brands fa-youtube "></i
+            ></a>
+          </div>
+        </section>
+      </div>
+      <div class="col-8 bg-white d-flex">
+        <form role="form">
+          <div class="d-flex m-5">
+            <div class="col-6">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" placeholder="Seu nome" />
+            </div>
+            <div class="col-6">
+              <label for="tel">Telefone</label>
+              <input type="tel" id="tel" placeholder="(31) 8 8884-4444" />
+            </div>
+          </div>
+          <div>
+            <div class="col-12 m-5">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" placeholder="contato@email.com" />
+            </div>
+            <div class="col-12"></div>
+            <div class="m-5">
+              <label class="col-12" for="msg">Mensagem</label>
+              <textarea
+                id="msg"
+                rows="6"
+                cols="70"
+                placeholder="O que você precisa?"
+              ></textarea>
+            </div>
+            <div class="button">
+              <button class="btn-active btnToGreen ">
+                Enviar Mensagem
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="card-container">
+      <h1 class="card-title">
+        Lojas locais<span class="text-yellow textToGreen">.</span>
+      </h1>
+      <div class="col-12 d-flex justify-content-evenly p-t-120">
+        <div class="col-6 card">
+          <div class="card-body">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224991.53570641126!2d-48.85316088018678!3d-28.222720182567993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526ca8d9036d5d3%3A0x222b8b3dc2b114ce!2sImbituba%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1685211380353!5m2!1spt-BR!2sbr"
+              margin-bottom="20"
+              width="438"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <h3>Imbituba</h3>
+
+            <div class="d-flex card-content">
+              <div class="col-6">
+                <p>Rua Não tão Perto, Imbituba</p>
+                <p>SC - Brasil</p>
+              </div>
+
+              <div class="col-6">
+                <a href="assistencia@bikcraft.com">assistencia@bikcraft.com</a
+                ><br />
+                <a href="tel:+55 48 888844444">(31) 8 8884-4444</a>
+              </div>
+            </div>
+            <p>08-18h de seg à dom</p>
+          </div>
+        </div>
+        <div class="col-6 card">
+          <div class="card-body">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7501.49186304193!2d-43.93901266176623!3d-19.935108539820078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699db6b0568ab%3A0x5faa6ef4447650bb!2sSavassi%2C%20Belo%20Horizonte%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1685211352233!5m2!1spt-BR!2sbr"
+              margin-bottom="20"
+              width="438"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <h3>Belo Horizonte</h3>
+            <div class="d-flex card-content">
+              <div class="col-6">
+                <p>Rua Ali Perto, Belo Horizonte</p>
+                <p>MG - Brasil</p>
+              </div>
+
+              <div class="col-6">
+                <a href="assistencia@bikcraft.com">assistencia@bikcraft.com</a
+                ><br />
+                <a href="tel:+55 31 888844444">(31) 8 8884-4444</a>
+              </div>
+            </div>
+            <p>08-18h de seg à dom</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="content">
+          <div class="col-4">
+            <a href="/bikcraft.html"
+              ><img
+                src="https://www.origamid.com/projetos/bikcraft/img/bikcraft.svg"
+            /></a>
+          </div>
+          <div class="container col-4">
+            <h4>CONTATO</h4>
+            <div class="pt-4">
+              <p>Rua Ali Perto, Belo Horizonte</p>
+              <p>MG - Brasil</p>
+            </div>
+            <hr class="linha" />
+            <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a><br />
+            <a href="tel:+55 31 888844444">(31) 8 8884-4444</a>
+            <hr class="linha" />
+            <div class="d-flex pt-4">
+              <div>
+                <a class="contato-redes p-2" href="./"
+                  ><i class="fa-brands fa-instagram" style="color: #f7f7f7"></i
+                ></a>
+                <a class="contato-redes p-2" href="./"
+                  ><i class="fa-brands fa-facebook" style="color: #f7f7f7"></i
+                ></a>
+                <a class="contato-redes p-2" href="./"
+                  ><i class="fa-brands fa-youtube" style="color: #f7f7f7"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h4>INFORMAÇÕES</h4>
+            <nav>
+              <ul class="nav justify-column col-4">
+                <li class="nav-item">
+                  <a class="nav-link" href="./bicicletas.html">Bicicletas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Seguros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contato.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Termos e Condições</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <p class="footer-copy font-2-m">
+          Bikecraft &copy; Alguns direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/script/changeColor.js"></script>
+  </body>
+</html>

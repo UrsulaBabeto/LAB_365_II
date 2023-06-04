@@ -1,0 +1,74 @@
+<<<<<<< HEAD
+:root {
+  --black1: #696868;
+  --text1: #fff;
+
+  --btn-background-color:rgb(252, 211, 31);
+}
+* {
+  background-color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  color: var(text1);
+}
+ul {
+  display: flex;
+  position: absolute;
+  margin: 0;
+  justify-content: space-around;
+  top: 17px;
+  flex-direction: row;
+  right: 10px;
+}
+li {
+  color: var(--black1);
+}
+btn{
+    color:black;
+    border-radius:6px;
+    background-color: var(--btn-background-color);
+=======
+:root {
+  --black1: #696868;
+  --text1: #fff;
+
+  --btn-background-color:rgb(252, 211, 31);
+}
+* {
+  background-color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  color: var(text1);
+}
+ul {
+  display: flex;
+  position: absolute;
+  margin: 0;
+  justify-content: space-around;
+  top: 17px;
+  flex-direction: row;
+  right: 10px;
+}
+li {
+  color: var(--black1);
+}
+btn{
+    color:black;
+    border-radius:6px;
+    background-color: var(--btn-background-color);
+>>>>>>> d3ea264f72aeb8ada3651316b9dd9093f950d10d
+}
