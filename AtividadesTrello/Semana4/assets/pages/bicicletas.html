@@ -13,24 +13,41 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/assets/styles/bikcraft.css" />
+    <link rel="stylesheet" href="/assets/styles/cor-ativa.css" />
   </head>
   <body>
-   
-    <header>
-      <a href="/bikcraft.html">
-        <img src="https://www.origamid.com/projetos/bikcraft/img/bikcraft.svg"
-      /></a>
-      <ul>
-        <li><a href="/assets/pages/bicicletas.html">Bicicletas</a></li>
-        <li><a href="#">Seguros</a></li>
-        <li><a href="./assets/pages/contato.html">Contato</a></li>
-      </ul>
+    <header class="header">
+      <div>
+        <a href="/bikcraft.html"
+          ><img
+            src="https://www.origamid.com/projetos/bikcraft/img/bikcraft.svg"
+        /></a>
+      </div>
+      <div>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="./bicicletas.html">Bicicletas</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Seguros</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" onclick="changeColor()">
+              Alterar Cor Ativa
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" onclick="trocarTema()">Trocar Tema</button>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <section class="content">
       <div class="titulo col-12">
         <h6>escolha a melhor pra você</h6>
-        <h1>nossas bicicletas<span class="text-yellow">.</span></h1>
+        <h1>nossas bicicletas<span class="text-yellow textToGreen">.</span></h1>
       </div>
     </section>
 
@@ -72,11 +89,19 @@
           <div>
             <h4>INFORMAÇÕES</h4>
             <nav>
-              <ul class="lista p-4">
-                <li><a href="/assets/pages/bicicletas.html">Bicicletas</a></li>
-                <li><a href="#">Seguros</a></li>
-                <li><a href="./assets/pages/contato.html">Contato</a></li>
-                <li><a href="#">Termos e Condições</a></li>
+              <ul class="nav justify-column col-4">
+                <li class="nav-item">
+                  <a class="nav-link" href="./bicicletas.html">Bicicletas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Seguros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contato.html">Contato</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Termos e Condições</a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -89,5 +114,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
     <script src="/assets/script/bicicletas.js"></script>
+    <script src="/assets/script/changeColor.js"></script>
   </body>
 </html>
